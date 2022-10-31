@@ -47,7 +47,7 @@ export const Settings = ({ data, updateData }: SettingsProps) => {
         ) : (
           <SelectControl<string[]>
             multiple
-            height={150}
+            style={{ height: 'auto' }}
             value={data.allowed_blocks}
             options={blockOptions}
             onChange={handleBlocksChange}
