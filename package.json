@@ -1,0 +1,38 @@
+{
+  "name": "lazyblocks-inner-blocks",
+  "version": "1.0.0",
+  "main": "dist/lzb-inner-blocks.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.24",
+    "@types/wordpress__block-editor": "^7.0.0",
+    "@types/wordpress__components": "^19.10.3",
+    "@wordpress/block-editor": "^10.3.0",
+    "@wordpress/components": "^21.3.0",
+    "@wordpress/core-data": "^5.0.0",
+    "@wordpress/data": "^7.0.0",
+    "@wordpress/hooks": "^3.0.0",
+    "@wordpress/i18n": "^4.20.0",
+    "react": "^18.2.0",
+    "rollup": "^3.2.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@wordpress/block-editor": "^10.0.0",
+    "@wordpress/components": "^21.0.0",
+    "@wordpress/core-data": "^5.0.0",
+    "@wordpress/data": "^7.0.0",
+    "@wordpress/hooks": "^3.0.0",
+    "@wordpress/i18n": "^4.0.0",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  }
+}
